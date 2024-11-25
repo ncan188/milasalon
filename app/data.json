@@ -1,0 +1,80 @@
+{
+  "users": [
+    { "id": 1, "name": "Thanh Tú", "email": "hairthanhtu@gmail.com" },
+    { "id": 2, "name": "NCan", "email": "ncan.stt@gmail.com" }
+  ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "Giảm giá mùa Noel: Tận hưởng mái tóc đẹp với ưu đãi 50%",
+        "content": "Chào đón mùa Noel với ưu đãi siêu hấp dẫn! Salon của chúng tôi giảm giá lên đến 50% cho tất cả các dịch vụ làm tóc. Đây là cơ hội tuyệt vời để bạn sở hữu một kiểu tóc mới, tự tin đón Giáng sinh rực rỡ.",
+        "users": 1,
+        "tags": 1
+      },
+      {
+        "id": 2,
+        "title": "Khuyến mãi mùa Tết: Làm tóc đẹp, đón lộc đầu xuân",
+        "content": "Salon giới thiệu gói dịch vụ ưu đãi đón Tết: Giảm 30% cho dịch vụ uốn, duỗi, nhuộm. Hãy để mái tóc của bạn rạng ngời trong những ngày đầu năm mới, thu hút mọi ánh nhìn.",
+        "users": 1,
+        "tags": 1
+      },
+      {
+        "id": 3,
+        "title": "Ưu đãi mùa Đông: Mái tóc khỏe đẹp không lo giá lạnh",
+        "content": "Mùa Đông này, salon mang đến chương trình khuyến mãi giảm giá 20% cho các liệu trình dưỡng tóc chuyên sâu, giúp bạn tự tin hơn với mái tóc óng ả, mềm mượt.",
+        "users": 1,
+        "tags": 1
+      },
+      {
+        "id": 4,
+        "title": "Tóc bob ngắn: Hot trend năm nay dành cho nàng cá tính",
+        "content": "Tóc bob ngắn không chỉ trẻ trung mà còn phù hợp với mọi khuôn mặt. Cùng khám phá tại salon chúng tôi để biến hóa với kiểu tóc được yêu thích nhất năm nay.",
+        "users": 1,
+        "tags": 2
+      },
+      {
+        "id": 5,
+        "title": "Tóc layer nữ: Lựa chọn hoàn hảo cho nàng dịu dàng",
+        "content": "Kiểu tóc layer nữ đang làm mưa làm gió trong năm nay. Hãy thử ngay để mang lại vẻ đẹp nhẹ nhàng, tinh tế và phù hợp với nhiều dịp khác nhau.",
+        "users": 2,
+        "tags": 2
+      },
+      {
+        "id": 6,
+        "title": "Tóc nhuộm ombre: Thời thượng và phá cách",
+        "content": "Nếu bạn muốn thay đổi phong cách, tóc nhuộm ombre với những gam màu độc đáo chính là lựa chọn dành cho bạn. Đến salon để được tư vấn màu tóc hợp nhất với bạn nhé!",
+        "users": 1,
+        "tags": 2
+      },
+      {
+        "id": 7,
+        "title": "Bí quyết dưỡng tóc mùa đông: Không lo tóc khô và gãy rụng",
+        "content": "Mùa Đông làm tóc dễ khô và xơ rối. Đừng bỏ qua các bí quyết dưỡng tóc đơn giản nhưng hiệu quả giúp bạn luôn sở hữu mái tóc đẹp bất chấp thời tiết.",
+        "users": 1,
+        "tags": 3
+      },
+      {
+        "id": 8,
+        "title": "Chọn kiểu tóc phù hợp để thu hút ánh nhìn trong dịp lễ",
+        "content": "Mỗi dịp lễ đều có những kiểu tóc phù hợp để tỏa sáng. Hãy cùng khám phá các gợi ý từ salon để bạn luôn nổi bật trong mọi sự kiện.",
+        "users": 2,
+        "tags": 3
+      },
+      {
+        "id": 9,
+        "title": "Mẹo nhỏ giúp tóc bóng mượt, bồng bềnh tự nhiên",
+        "content": "Để có mái tóc bồng bềnh tự nhiên, bạn không cần đến những sản phẩm đắt tiền. Áp dụng ngay những mẹo dưỡng tóc từ salon để mái tóc luôn khỏe đẹp.",
+        "users": 1,
+        "tags": 3
+      }
+    ],
+  "tags": [
+    { "id": 1, "name": "Khuyến mãi", "slug": "khuyenmai" },
+    { "id": 2, "name": "Mẫu đẹp" ,"slug": "maudep"}, 
+    { "id": 2, "name": "Tips", "slug": "tips" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "users": 2, "content": "Tuyệt vời nha shop!" },
+    { "id": 2, "postId": 2, "users": 1, "content": "Shop Mila mãi đỉnh." }
+  ]
+}
